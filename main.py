@@ -7,4 +7,3 @@ app = FastAPI()
 def home():
     return {"Hello": "World"}
 
-
