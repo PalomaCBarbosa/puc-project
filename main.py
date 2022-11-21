@@ -16,6 +16,7 @@ class Data(BaseModel):
 
 
 
+
 def load_models():
     model = pickle.load(open(os.path.join(os.getcwd(),
                                           'models',
